@@ -43,7 +43,7 @@ function Main() {
               className="steam"
             >
               <img src="../src/assets/steam.png" width={60}></img>
-              <h2>JGW0A-ABT4R-W7K46</h2>
+              <h2>{process.env.STARDEW_KEY}</h2>
             </div>
           )
         }
