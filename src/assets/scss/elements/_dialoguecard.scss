@@ -1,0 +1,81 @@
+.dialogue-card {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 100%;
+  min-width: 898px;
+  min-height: 310px;
+  max-width: 898px;
+  max-height: 310px;
+  height: 100%;
+  background-image: url("/src/assets/dialogue.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*  box-shadow: 0 0 2rem #00000033; */
+  box-sizing: border-box;
+}
+
+.dialogue-card .dialogue-card__message {
+  flex: 1.5;
+  display: flex;
+  padding: 20px 30px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dialogue-card .dialogue-card__message div:nth-child(1) {
+  margin-top: 31.872px;
+}
+
+.dialogue-card .dialogue-card__message .dialogue-card__options {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.dialogue-card .dialogue-card__message .dialogue-card__options button {
+  background-image: url("/src/assets/button.png");
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border: none;
+  width: 31px;
+  height: 31px;
+  cursor: url("/src/assets/cursors/stardew_pointer.png"), pointer;
+  flex-wrap: wrap;
+  word-wrap: normal;
+
+  &:nth-child(2) {
+    background-image: url("/src/assets/button2.png");
+  }
+
+  &:focus {
+    outline: none !important;
+  }
+}
+
+.dialogue-card .dialogue-card__character {
+  flex: 1;
+  display: flex;
+  padding: 0 20px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dialogue-card .dialogue-card__character :nth-child(1) {
+  margin-top: 25px;
+}
+
+.dialogue-card .dialogue-card__character :nth-child(2) {
+  margin-top: 50px;
+}
+
+.steam {
+  cursor: url(" /src/assets/cursors/cursor_gift2.png"), pointer;
+}
