@@ -15,7 +15,7 @@
 
 @font-face {
   font-family: "Stardew Valley";
-  src: url("/src/assets/fonts/Stardew_Valley.ttf") format("truetype");
+  src: url("/public/fonts/Stardew_Valley.ttf") format("truetype");
 }
 
 :root {
@@ -50,12 +50,12 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-image: url("/src/assets/stardewbackground.png");
+  background-image: url("/public/stardewbackground.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Stardew Valley", sans-serif;
-  cursor: url("/src/assets/cursors/stardew_cursor.png"), auto;
+  cursor: url("/public/cursors/stardew_cursor.png"), auto;
 }
 
 h1 {

@@ -1,6 +1,6 @@
 import React, { Suspense, lazy } from "react";
 import ReactDOM from "react-dom/client";
-import "./assets/scss/index.scss";
+import "../public/scss/index.scss";
 import { BrowserRouter } from "react-router-dom";
 // @ts-ignore
 import AOS from "aos";

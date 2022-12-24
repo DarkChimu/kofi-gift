@@ -1,7 +1,7 @@
 export const charSprite = {
-  default: "src/assets/sprites/Sebastian.png",
-  happy: "src/assets/sprites/Sebastian_Happy.png",
-  sad: "src/assets/sprites/Sebastian_Concerned.png",
+  default: "/sprites/Sebastian.png",
+  happy: "/sprites/Sebastian_Happy.png",
+  sad: "/sprites/Sebastian_Concerned.png",
 };
 
 export interface DialogueCardProps {

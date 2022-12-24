@@ -10,7 +10,7 @@
   max-width: 898px;
   max-height: 310px;
   height: 100%;
-  background-image: url("/src/assets/dialogue.png");
+  background-image: url("/public/dialogue.png");
   background-repeat: no-repeat;
   background-size: cover;
   /*  box-shadow: 0 0 2rem #00000033; */
@@ -38,7 +38,7 @@
 }
 
 .dialogue-card .dialogue-card__message .dialogue-card__options button {
-  background-image: url("/src/assets/button.png");
+  background-image: url("/public/button.png");
   background-color: transparent;
   background-repeat: no-repeat;
   background-size: contain;
@@ -46,12 +46,12 @@
   border: none;
   width: 31px;
   height: 31px;
-  cursor: url("/src/assets/cursors/stardew_pointer.png"), pointer;
+  cursor: url("/public/cursors/stardew_pointer.png"), pointer;
   flex-wrap: wrap;
   word-wrap: normal;
 
   &:nth-child(2) {
-    background-image: url("/src/assets/button2.png");
+    background-image: url("/public/button2.png");
   }
 
   &:focus {
@@ -77,5 +77,5 @@
 }
 
 .steam {
-  cursor: url("/src/assets/cursors/cursor_gift2.png"), pointer;
+  cursor: url("/public/cursors/cursor_gift2.png"), pointer;
 }

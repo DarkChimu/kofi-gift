@@ -6,6 +6,7 @@ import { url } from "inspector";
 function Main() {
   const [data, setData] = useState(dialogueConfig.items);
   const [dataIndex, setDataIndex] = useState(0);
+  const [key, setKey] = useState(import.meta.env.VITE_STEAM_KEY);
 
   const goBack = () => {
     console.log("goBack");
@@ -42,8 +43,8 @@ function Main() {
               }}
               className="steam"
             >
-              <img src="/assets/src/assets/steam.png" width={60}></img>
-              <h2>{process.env.STARDEW_KEY}</h2>
+              <img src="/steam.png" width={60}></img>
+              <h2>{key}</h2>
             </div>
           )
         }
